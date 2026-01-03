@@ -29,5 +29,5 @@ This is my personal portfolio website created to showcase my skills, projects, a
 6. Deployed the website using GitHub Pages  
 
 ## AUTHOR
-ZOYA ANJUM
+ZOYA ANJUM                                                                                     
 GitHub: ttps://github.com/zoyaanjum07
