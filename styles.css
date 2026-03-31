@@ -7,7 +7,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-            color: white;
+            color: rgb(249, 246, 246);
             overflow-x: hidden;
         }
 
@@ -21,7 +21,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px 8%;
-            background: rgba(26, 26, 26, 0.95);
+            background: rgba(24, 23, 23, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
             box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
@@ -35,7 +35,7 @@
         }
         
         .logo span{
-            color: #2196F3;
+            color: #0a5e8f;
         }
 
         .nav-links {
@@ -55,7 +55,7 @@
 
         .nav-links a:hover,
         .nav-links a.active {
-            color: #c41e3a;
+            color: #0a5e8f;
         }
 
         .nav-links a::after {
@@ -65,7 +65,8 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: #c41e3a;
+            color: #0a5e8f;
+            background: #0a5e8f;
             transition: width 0.3s ease;
         }
 
@@ -94,11 +95,11 @@
             width: 380px;
             height: 380px;
             border-radius: 50%;
-            border: 8px solid #2196F3;
+            border: 8px solid #1475c5;
             object-fit: cover;
             object-position: center;
             transition: transform 0.4s ease;
-            box-shadow: 0 10px 40px rgba(33, 150, 243, 0.3);
+            box-shadow: 0 10px 40px rgba #0a5e8f(44, 20, 225, 0.3);
         }
 
         .profile-img:hover {
@@ -112,13 +113,13 @@
 
         .intro {
             font-size: 18px;
-            color: #b0b0b0;
+            color: #edeff0;
             margin-bottom: 10px;
         }
 
         .typing-container {
             display: inline-block;
-            color: #2196F3;
+            color: #107393;
             font-weight: 600;
         }
 
@@ -126,7 +127,7 @@
             display: inline-block;
             width: 2px;
             height: 20px;
-            background: #2196F3;
+            background: #0a4cae;
             margin-left: 2px;
             animation: blink 0.7s infinite;
         }
@@ -139,7 +140,7 @@
         .hero-name {
             font-size: 62px;
             font-weight: 800;
-            color: #2196F3;
+            color:#0a5e8f;
             margin: 20px 0;
             letter-spacing: 2px;
         }
@@ -329,7 +330,7 @@
         .section-title {
             font-size: 36px;
             font-weight: 700;
-            color: #2196F3;
+            color: #0c5492;
             margin-bottom: 40px;
             text-align: center;
             letter-spacing: 2px;
@@ -521,7 +522,7 @@
 
         .blog-post:hover {
             transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(196, 30, 58, 0.6);
+            box-shadow: 0 15px 30px rgba(10, 83, 142, 0.6);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
