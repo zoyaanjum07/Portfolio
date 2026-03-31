@@ -1,7 +1,0 @@
-> git push origin main:main
-remote: error: GH007: Your push would publish a private email address.        
-remote: You can make your email public or disable this protection by visiting:        
-remote: https://github.com/settings/emails        
-To https://github.com/zoyaanjum07/Portfolio.git
- ! [remote rejected] main -> main (push declined due to email privacy restrictions)
-error: failed to push some refs to 'https://github.com/zoyaanjum07/Portfolio.git'
